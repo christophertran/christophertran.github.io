@@ -1,0 +1,237 @@
+/* 
+ * General
+ */
+
+body {
+  background-image: url('../img/hero-bg.png');
+  color: white;
+}
+
+/*
+ * General - Nav Bar
+ */
+
+.nav-pills .nav-link.active {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.nav-pills .nav-link {
+  background-color: none;
+  color: white;
+  margin: 10px 5px 0 5px;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/*
+ * General - Footer
+ */
+
+.footer-links .footer-link {
+  /* Top Right Bottom Left */
+  padding: 5% 1% 5% 1%;
+}
+
+.footer-links .footer-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links .footer-link a:hover {
+  color: lightblue;
+}
+
+/*
+ * index.html - Home Section
+ */
+
+.home-section {
+  color: white;
+  padding: 5% 0 5% 0;
+}
+
+.landing-page-about-btn {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+}
+
+.landing-page-about-btn:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/*
+ * about.html - About Section
+ */
+
+.about-section {
+  padding: 5% 0 5% 0;
+}
+
+.about-text {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+}
+
+.about-avatar {
+  border: 5px solid black;
+  border-radius: 1rem;
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+.about-list {
+  padding-top: 10%;
+}
+
+.about-list .about-fact {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+  padding: 5px 0;
+}
+
+.about-list label {
+  color: white;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: white;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* 
+ * portfolio.html - Portfolio Section
+ */
+
+.portfolio-section {
+  padding: 5% 0 5% 0;
+}
+
+.portfolio-card {
+  background-color: black;
+  display: block;
+  margin: auto;
+}
+
+.portfolio-page-more-btn {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+}
+
+.portfolio-page-more-btn:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/*
+ * qualifications.html - Qualifications Section
+ */
+
+.qualifications-section {
+  padding: 5% 0 5% 0;
+}
+
+.technical-skills {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+  margin-right: 2%;
+}
+
+.professional-skills {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+  margin-left: 2%;
+}
+
+.technical-aoi {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+  padding: 5% 0 0 0;
+  margin-top: 4%;
+}
+
+.resume-display {
+  padding: 5% 0 0 0;
+}
+
+.resume-display embed {
+  display: block;
+  margin: auto;
+}
+
+/*
+ * service.html - Service Section
+ */
+
+.service-section {
+  padding: 5% 0 5% 0;
+}
+
+.service-section #service-carousel .carousel-caption.d-none.d-md-block {
+  background-color: rgba(0, 0, 0, 0.60);
+  border: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+}
+
+.service-page-more-btn {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+}
+
+.service-page-more-btn:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/* 
+ * secret.html - Secret Section
+ */
+
+.secret-section {
+  padding: 5% 0 5% 0;
+}
+
+.secret-section .container .jumbotron iframe {
+  display: block;
+  margin: auto;
+}
