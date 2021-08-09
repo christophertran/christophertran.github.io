@@ -1,7 +1,7 @@
 # Personal Website
 
-This is a personal website created for my CSCE 315 course.
+This is a personal website created for my CSCE 315 course but has been modified over time.
 
 ## Link
 
-http://people.tamu.edu/~tchristopher457/
+https://christophertran.github.io/
