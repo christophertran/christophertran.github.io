@@ -222,3 +222,41 @@ body {
   background-color: lightblue;
   color: black;
 }
+
+/*
+ * CSCE 447 Things
+ */
+.csce447-home-btn {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+}
+
+/*
+ * csce447.html - CSCE 447 Section
+ */
+
+.csce447-section {
+  padding: 5% 0 5% 0;
+}
+
+.csce447-section h2 {
+  text-align: center;
+}
+
+/*
+ * csce447/assignment1.html - Assignment 1 Section
+ */
+
+.csce447-assignment1-section {
+  padding: 5% 0 5% 0;
+}
+
+.csce447-assignment1-section h2 {
+  text-align: center;
+}
+
+.csce447-assignment1-section .about-avatar {
+  max-width: 15%;
+  max-height: 15%;
+}
